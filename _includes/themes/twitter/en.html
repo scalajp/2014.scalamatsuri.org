@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }} - {{site.title}}</title>
+    {% if page.description.en %}
+    <meta name="description" content="{{ page.description.en }}">
+    {% endif %}
+    <meta name="author" content="{{ site.author.name.en }}">
+
+    <meta property="fb:app_id" content="266714100129645" />
+    <meta property="og:site_name" content="{{site.title}}" />
+    <meta property="og:image" content="http://www.scalaconf.jp{{ ASSET_PATH }}/img/scalajp_logo.png" />
+    <meta property="og:title" content="{{site.title}}" />
+    <meta property="og:description" content="{{ site.description.en }}" />
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ ASSET_PATH }}/css/bootstrap_override.css" rel="stylesheet">
+    <link href="/assets/2014/main.css" rel="stylesheet">
+
+		{% include ganalytics.html %}
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse">
+      <div class="navbar-inner">
+        <div class="container-fluid">
+          <a class="brand" href="{{ HOME_PATH }}en/">{{ site.title }}</a>
+          <div class="btn-group pull-right">
+            <a class="btn" href="/">日本語</a>
+          </div>
+          <div class="nav-collapse">
+            <ul class="nav">
+              {% assign pages_list = site.pages | sort:"order" %}
+              {% assign group = 'navigation_en' %}
+              {% include JB/pages_list %}
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Archive <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="/2013/en/">2013</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div class="span9">
+          {{ content }}
+        </div>
+
+        <div class="span3">
+
+          <img src="{{ ASSET_PATH }}/img/scalajp_logo.png" width="280">
+
+          <hr/>
+	  {% include 2014/sponsor_link.html %}
+    <a class="btn btn-large" href="/endcredits/">Staff</a>
+          <h3>Links</h3>
+          <ul class="unstyled">
+            <li><a href="http://scala-lang.org/">The Scala Programming Language</a></li>
+            <li><a href="http://jp.scala-users.org/">Japan Scala Users Group</a></li>
+            <li><a href="http://scalajp.github.io/jsa/">Japan Scala Association</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <hr/>
+      <div>&copy; 2012 -
+        <script type="text/javascript">//<!--
+          var year = (new Date()).getYear();
+          document.write(year < 1000 ? 1900 + year : year);
+          //--></script>
+        {{ site.author.name.en }}
+      </div>
+      <hr/>
+
+    </div>
+    <!-- /container -->
+
+    <script src="{{ ASSET_PATH }}/bootstrap/js/jquery.min.js"></script>
+    <script src="{{ ASSET_PATH }}/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/assets/underscore-min.js"></script>
+    <script src="/js/shuffle_sponsor.js"></script>
+
+  </body>
+</html>
