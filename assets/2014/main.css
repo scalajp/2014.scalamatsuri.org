@@ -1,0 +1,135 @@
+.hide-text {
+    text-indent: 1000%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+h1.big-logo {
+    height: 200px;
+    background-image: url(./img/scala_matsuri_A.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+h1 {
+    font-size: 24.5px;
+}
+
+h1 small {
+    font-size: 14px;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.sponsor-title {
+    font-size: 24.5px;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.sponsor-logo > .title-platinum {
+    color: #c91b1e;
+}
+
+.sponsor-logo > .title-gold {
+    color: #daa520;
+}
+
+.sponsor-logo > .title-silver {
+    color: #808080;
+}
+
+.sponsor-logo > .title-patron {
+    color: #a9a9a9;
+}
+
+.sponsor-logo > ul {
+    margin-left: 0;
+    list-style: none;
+}
+
+.sponsor-logo li {
+    border-left: 5px solid #eee;
+    margin: 0 0 20px 0;
+    min-height: 40px;
+}
+
+.sponsor-logo img {
+    box-sizing: border-box;
+}
+
+.job {
+    border-top: dotted 2px #aaa;
+    margin-bottom: 100px;
+}
+
+.job .logo {
+    border: solid 1px #ddd;
+}
+
+
+#time-table thead {
+    background-color: #f5f5f5;
+}
+
+#time-table p.session-id {
+    font-size: 80%;
+    color: #808080;
+    margin: 0;
+}
+
+#time-table  td.rest-time {
+    padding: 2px 6px;
+    vertical-align: middle;
+}
+
+#time-table .session-title {
+    color: #c91b1e;
+    font-weight: bold;
+    margin: 4px 6px 0 6px;
+}
+
+#time-table .session-document a {
+    color: #808080;
+}
+
+#time-table .session-speaker {
+    margin: 0 6px 0 6px;
+}
+
+#time-table th, .time-table td {
+}
+
+#sessions .session {
+    border-top: dotted 2px #aaa;
+    margin: 1em;
+}
+
+#sessions .title {
+    color: #c91b1e;
+}
+
+#sessions .speaker {
+    margin-top: 1em;
+}
+
+#sessions .figure img {
+    max-width: 180px;
+    max-height: 180px;
+
+    height: auto;
+    width: auto;
+
+    margin: 1em;
+}
+
+
+#sessions p {
+    margin: 1em;
+}

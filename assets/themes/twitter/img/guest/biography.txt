@@ -1,0 +1,21 @@
+Guest Speakers' Biography (Received via e-mail)
+
+* Jonas Boner
+
+Jonas Boner is a geek, programmer, speaker, musician, writer and Java
+Champion. He is the CTO and co-founder of Typesafe and is an active
+contributor to the Open Source community; most notably founded the
+Akka Project and the AspectWerkz AOP compiler (now AspectJ). Learn
+more at: http://jonasboner.com
+
+* James Roper
+
+James Roper is an open source developer with a passion for helping developers to produce great software.  James started out as an enterprise Java developer, before moving to Atlassian where we specialised in developing Atlassian's hosted offerings of their world class enterprise development tools.  He now works for Typesafe as a core developer on Play Framework, and frequently blogs and speaks on technical topics in relation to Play, Scala, and whatever else happens to tickle his fancy.
+
+* Joshua Suereth
+
+Josh Suereth is a Senior Software Engineer at Typesafe and the author of "Scala In Depth". He has been a Scala enthusiast ever since he came to know this beautiful language in 2007. He started his professional career as a software developer in 2004 using programming languages like C++, Perl and Java. In 2009 he began writing the book "Scala In Depth" which provides practical support for using Scala in every day applications. Josh regularly shares his expertise in articles and talks.
+
+* Jamie Allen
+
+Jamie Allen has over 18 years of experience delivering enterprise solutions across myriad industries, platforms, environments and languages. He has been developing enterprise applications with Scala since 2009, primarily using Actors for fault tolerance and managing concurrency at scale.

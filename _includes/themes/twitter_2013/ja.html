@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ja" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }} - Scala Conference in Japan 2013</title>
+    {% if page.description.ja %}
+    <meta name="description" content="{{ page.description.ja }}">
+    {% endif %}
+    <meta name="author" content="{{ site.author.name.ja }}">
+
+    <meta property="fb:app_id" content="266714100129645" />
+    <meta property="og:site_name" content="Scala Conference in Japan 2013" />
+    <meta property="og:image" content="http://www.scalaconf.jp{{ ASSET_PATH }}/img/scalajp_logo.png" />
+    <meta property="og:title" content="Scala Conference in Japan 2013" />
+    <meta property="og:description" content="{{ page.description.ja }}" />
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ ASSET_PATH }}/css/bootstrap_override.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+<div class="navbar navbar-inverse">
+      <div class="navbar-inner">
+        <div class="container-fluid">
+          <a class="brand" href="/2013/">Scala Conference in Japan 2013</a>
+          <div class="btn-group pull-right">
+            <a class="btn" href="/2013/en/">English</a>
+          </div>
+          <div class="nav-collapse">
+          <ul class="nav">
+            {% assign pages_list = site.pages %}
+            {% assign group = 'navigation_ja_2013' %}
+            {% include JB/pages_list %}
+          </ul>
+          </div>
+        </div>
+      </div>
+</div>
+
+<div class="container-fluid">
+<div class="row-fluid">
+<div class="span9">
+  {{ content }}
+</div>
+
+<div class="span3">
+
+    <img src="{{ ASSET_PATH }}/img/scalajp_logo.png" width="280">
+    <hr/>
+
+    <h3 class="well well-small" style="color:#c91b1e">Platinum Sponsor</h3>
+
+    <ul class="unstyled">
+      <blockquote style="padding: 0px 0px 0px 20px"><li><a href="http://www.geishatokyo.com/"><img src="{{ ASSET_PATH }}/img/sponsor/gte.jpg" width="140"></a></li></blockquote>
+      <blockquote style="padding: 20px 0px 20px 20px"><li><a href="http://www.intellilink.co.jp/"><img src="{{ ASSET_PATH }}/img/sponsor/NTT-DATA.png" width="260"></a></li></blockquote>
+    </ul>
+    <hr>
+
+    <h3 class="well well-small" style="color:#daa520">Gold Sponsor</h3>
+
+    <ul class="unstyled">
+      <blockquote style="padding: 12px 0px 12px 15px"><li><a href="http://www.t2v.jp/"><img src="{{ ASSET_PATH }}/img/sponsor/t2v.png" width="220"></a></li></blockquote>
+      <blockquote style="padding: 18px 0px 18px 0px"><li><a href="http://info.dwango.co.jp/"><img src="{{ ASSET_PATH }}/img/sponsor/dwango.png" width="250"></a></li></blockquote>
+      <blockquote style="padding: 2px 0px 2px 10px"><li><a href="http://corporate.m3.com/"><img src="{{ ASSET_PATH }}/img/sponsor/m3.png" width="220"></a></li></blockquote>
+      <blockquote style="padding: 15px 0px 15px 20px"><li><a href="http://www.furyu.jp/"><img src="{{ ASSET_PATH }}/img/sponsor/furyu.png" width="200"></a></li></blockquote>
+    </ul>
+    <hr>
+
+    <h3 class="well well-small" style="color:#808080">Silver Sponsor</h3>
+    <hr/>
+    <ul class="unstyled">
+      <blockquote style="padding: 10px 0px 10px 15px"><li><a href="http://www.ase.co.jp/"><img src="{{ ASSET_PATH }}/img/sponsor/ase.png" width="160"></a></li></blockquote>
+      <blockquote style="padding: 10px 0px 10px 20px"><li><a href="http://www.diva.co.jp/"><img src="{{ ASSET_PATH }}/img/sponsor/diva.png" width="80"></a></li></blockquote>
+      <blockquote style="padding: 15px 0px 15px 10px"><li><a href="http://www.AgnisPhilosophy.com"><img src="{{ ASSET_PATH }}/img/sponsor/square_enix.jpg" width="180"></a></li></blockquote>
+      <blockquote style="padding: 8px 0px 8px 15px"><li><a href="https://ubiregi.com/"><img src="{{ ASSET_PATH }}/img/sponsor/ubiregi.png" width="120"></a></li></blockquote>
+      <blockquote><li><a href="http://demand-side-science.jp/"><img src="{{ ASSET_PATH }}/img/sponsor/dss.png" width="110"></a></li></blockquote>
+      <blockquote style="padding: 5px 0px 5px 15px"><li><a href="http://www.shanon.co.jp/"><img src="{{ ASSET_PATH }}/img/sponsor/shanon.png" width="160"></a></li></blockquote>
+      <blockquote style="padding: 0px 0px 0px 15px"><li><a href="http://www.fancs.com/"><img src="{{ ASSET_PATH }}/img/sponsor/fancommunications.jpg" width="100"></a></li></blockquote>
+      <blockquote style="padding: 0px 0px 0px 15px"><li><a href="http://www.enrapt.jp/"><img src="{{ ASSET_PATH }}/img/sponsor/enrapt.png" width="160"></a></li></blockquote>
+      <blockquote style="padding: 0px 0px 0px 15px"><li><a href="http://www.applicative.jp/"><img src="{{ ASSET_PATH }}/img/sponsor/applicative.png" width="160"></a></li></blockquote>
+      <blockquote style="padding: 0px 0px 0px 15px"><li><a href="http://www.gignosystem.com/"><img src="{{ ASSET_PATH }}/img/sponsor/gsj.png" width="160"></a></li></blockquote>
+      <blockquote style="padding: 20px 0px 20px 15px"><li><a href="http://www.sysart.jp/"><img src="{{ ASSET_PATH }}/img/sponsor/sysart.png" width="160"></a></li></blockquote>
+    </ul>
+    <hr>
+
+    <h3 class="well well-small" style="color:#a9a9a9">Patron Sponsor</h3>
+
+    <ul class="unstyled">
+        <blockquote style="padding: 5px 0px 5px 10px"><li><a href="http://www.co-meeting.com"><img src="{{ ASSET_PATH }}/img/sponsor/co-meeting.png" width="160"></a></li></blockquote>
+        <blockquote style="padding: 5px 0px 5px 10px"><li><a href="http://www.doorkeeper.jp/"><img src="{{ ASSET_PATH }}/img/sponsor/doorkeeper.png" width="180"></a></li></blockquote>
+        <blockquote style="padding: 5px 0px 5px 10px"><li><a href="http://greative.jp/"><img src="{{ ASSET_PATH }}/img/sponsor/greative.png" width="140"></a></li></blockquote>
+        <blockquote style="padding: 5px 0px 5px 10px"><li><span style="font-size:24px;">九岡 佑介</span></li></blockquote>
+	<blockquote style="padding: 5px 0px 5px 10px"><li><a href="http://samuraism.com/"><img alt="サムライズム" src="{{ ASSET_PATH }}/img/sponsor/samuraism.png" width="180"></a></li></blockquote>
+    </ul>
+
+    <hr/>
+    <h3>特別協力</h3>
+    <ul class="unstyled">
+        <li><a href="http://www.titech.ac.jp/">東京工業大学</a> <a href="http://www.is.titech.ac.jp/">数理・計算科学専攻</a></li>
+    </ul>
+
+    <hr/>
+    <h3>Links</h3>
+
+    <ul class="unstyled">
+        <li><a href="http://scala-lang.org/">Scala公式ウェブサイト</a></li>
+        <li><a href="http://jp.scala-users.org/">日本Scalaユーザーズグループ</a></li>
+        <li><a href="http://scalajp.github.io/jsa/">Japan Scala Association</a></li>
+    </ul>
+
+</div>
+</div>
+
+      <hr/>
+      <div>&copy; 2012 - <script type="text/javascript">//<!--
+          var year = (new Date()).getYear();
+          document.write(year < 1000 ? 1900+year : year);
+        //--></script> {{ site.author.name.ja }}
+      </div>
+      <hr/>
+
+    </div> <!-- /container -->
+
+<script src="{{ ASSET_PATH }}/bootstrap/js/jquery.min.js"></script>
+<script src="{{ ASSET_PATH }}/bootstrap/js/bootstrap.min.js"></script>
+
+
+  </body>
+</html>
